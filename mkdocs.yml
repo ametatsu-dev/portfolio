@@ -1,4 +1,6 @@
 site_name: 雨立（Ametatsu） Portfolio
+docs_dir: src
+site_dir: docs
 theme:
   name: material
   language: ja
