@@ -15,5 +15,5 @@ $ uv run mkdocs serve
 ## Build
 
 ```bash
-$ uv run mkdocs serve
+$ uv run mkdocs build
 ```
