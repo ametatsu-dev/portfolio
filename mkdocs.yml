@@ -61,4 +61,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ametatsu-dev/portfolio
+    - icon: fontawesome/solid/blog
+      link: https://ametatsu.hatenablog.jp/
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/ametatsu_dev
 copyright: Copyright &copy; 2024 -  雨立（Ametatsu）
