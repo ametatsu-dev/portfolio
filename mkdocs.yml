@@ -1,0 +1,39 @@
+site_name: 雨立（Ametatsu） Portfolio
+theme:
+  name: material
+  language: ja
+  palette:
+    scheme: slate
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+
+nav:
+  - Home: index.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ametatsu-dev/portfolio
+copyright: Copyright &copy; 2024 -  雨立（Ametatsu）
