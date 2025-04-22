@@ -12,9 +12,33 @@ theme:
     - navigation.top
     # - navigation.tabs
     # - navigation.tabs.sticky
+  palette:
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/link
+    #     name: Switch to light mode
+    # - media: "(prefers-color-scheme: light)"
+    #   scheme: default
+    #   primary: grey
+    #   accent: indigo
+    #   toggle:
+    #     icon: material/toggle-switch
+    #     name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      # toggle:
+      #   icon: material/toggle-switch-off
+      #   name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 nav:
-  - Home: index.md
+  - index.md
+  - history.md
+  - skill.md
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -30,7 +54,6 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
 extra:
   generator: false
   social:
