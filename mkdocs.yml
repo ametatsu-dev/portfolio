@@ -65,4 +65,7 @@ extra:
       link: https://ametatsu.hatenablog.jp/
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/ametatsu_dev
+  analytics:
+    provider: google
+    property: G-SZJNFXL6Z4
 copyright: Copyright &copy; 2024 -  雨立（Ametatsu）
